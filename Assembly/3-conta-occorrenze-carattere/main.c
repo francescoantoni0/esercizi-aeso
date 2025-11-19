@@ -27,5 +27,7 @@ int main(int argc, char const *argv[])
 
     printf("%i\n", v[i]);
 
+    free(v);
+
     return 0;
 }
